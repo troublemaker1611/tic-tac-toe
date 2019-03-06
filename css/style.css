@@ -1,0 +1,47 @@
+td {
+    width: 100px;
+    height: 100px;
+    font-family: 'Cherry Cream Soda';
+    font-size: 40px;
+}
+
+table {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+button.cells{
+    padding: 40px;
+    background-color: Transparent;
+    border: none;
+}
+
+body{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Autour One';
+}
+
+#reset{
+    background-color: red;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-family: 'Autour One';
+}
+
+.label{
+    font-family: 'Cherry Cream Soda';
+    font-size: 24px;
+}

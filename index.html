@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Tic Tac Toe</title>
+
+    <!-- external script -->
+    <script src="scripts/main.js"></script>
+
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cherry Cream Soda' rel='stylesheet'>
+
+</head>
+
+<body>
+    <h1 style="font-size: 40px;">Tic Tac Toe</h1>
+    <p>&nbsp;</p>
+    <h3>Computer&nbsp;<i class="fas fa-arrow-right"></i>&nbsp;<span class="label" style="color:red">&nbsp;X</span><br>User&nbsp;<i class="fas fa-arrow-right"></i><span class="label" style="color:green">&nbsp;O</span></h3>
+    <p>&nbsp;</p>
+    <table>
+        <tr>
+            <td id="cell1"><button class="cells" id="1" onclick="userMove(this.id)">&nbsp;</button></td>
+            <td id="cell2" class="vert"><button class="cells" id="2" onclick="userMove(this.id)">&nbsp;</button></td>
+            <td id="cell3"><button class="cells" id="3" onclick="userMove(this.id)">&nbsp;</button></td>
+        </tr>
+        <tr>
+            <td id="cell4" class="hori"><button class="cells" id="4" onclick="userMove(this.id)">&nbsp;</button></td>
+            <td id="cell5" class="vert hori"><button id="5" class="cells" onclick="userMove(this.id)">&nbsp;</button></td>
+            <td id="cell6" class="hori"><button id="6" class="cells" onclick="userMove(this.id)">&nbsp;</button></td>
+        </tr>
+        <tr>
+            <td id="cell7"><button id="7" class="cells" onclick="userMove(this.id)">&nbsp;</button></td>
+            <td id="cell8" class="vert"><button id="8" class="cells" onclick="userMove(this.id)">&nbsp;</button></td>
+            <td id="cell9"><button id="9" class="cells" onclick="userMove(this.id)">&nbsp;</button></td>
+        </tr>
+    </table>
+    <p id="winningReport">&nbsp;</p>
+    <button id="reset" onclick="location.reload()">Reset</button>
+</body>
+
+</html>
